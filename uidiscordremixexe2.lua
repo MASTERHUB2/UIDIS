@@ -2233,7 +2233,7 @@ function DiscordLib:Window(text)
 				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
 				
 				Toggle.MouseButton1Click:Connect(function()
-					if toggled == true then
+					if toggled == false then
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
@@ -2286,7 +2286,7 @@ function DiscordLib:Window(text)
 					pcall(callback, toggled)
 				end)
                 if default == true then
-                    toggled = true
+                    toggled = false
                     TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
