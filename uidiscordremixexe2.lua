@@ -2233,7 +2233,7 @@ function DiscordLib:Window(text)
 				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
 				
 				Toggle.MouseButton1Click:Connect(function()
-					if toggled == false then
+					if toggled == true then
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
