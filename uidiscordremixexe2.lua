@@ -2310,6 +2310,8 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 0}
 						):Play()
+                        toggled = not toggled
+                        pcall(callback, toggled)
                  else
                     wait(.1)
                  end
