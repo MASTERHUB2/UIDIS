@@ -2040,7 +2040,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.BorderSizePixel = 0
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
-            ChannelBtnHashtag.Image = ima or "http://www.roblox.com/asset/?id=0"
+            ChannelBtnHashtag.Image = "http://www.roblox.com/asset/?id="..ima or "http://www.roblox.com/asset/?id=0"
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
 			ChannelBtnTitle.Parent = ChannelBtn
