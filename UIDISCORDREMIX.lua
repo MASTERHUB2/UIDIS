@@ -846,7 +846,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(103,123,196)}
+				{BackgroundColor3 = Color3.fromRGB(20, 20, 20)}
 			):Play()
 		end)
 
@@ -1342,7 +1342,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				ChangeBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(103,123,196)}
+				{BackgroundColor3 = Color3.fromRGB(20, 20, 20)}
 			):Play()
 		end)
 		
@@ -1642,7 +1642,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				AlrightBtn,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(103,123,196)}
+				{BackgroundColor3 = Color3.fromRGB(20, 20, 20)}
 			):Play()
 		end)
 
@@ -2040,7 +2040,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.BorderSizePixel = 0
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
-            ChannelBtnHashtag.Image = ima or "http://www.roblox.com/asset/?id=6035047409"
+            ChannelBtnHashtag.Image = ima or "http://www.roblox.com/asset/?id=0"
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
 			ChannelBtnTitle.Parent = ChannelBtn
@@ -2144,7 +2144,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(103,123,196)}
+						{BackgroundColor3 = Color3.fromRGB(20, 20, 20)}
 					):Play()
 				end)
 				
