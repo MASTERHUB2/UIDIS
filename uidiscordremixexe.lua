@@ -2286,7 +2286,7 @@ function DiscordLib:Window(text)
 					pcall(callback, toggled)
 				end)
                 if default == true then
-                    toggled = false
+                    toggled = true
                     TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
